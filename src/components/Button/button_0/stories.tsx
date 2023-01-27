@@ -6,7 +6,7 @@ import type {
 import { M0Button, C0Button } from '.'
 
 const meta = {
-  title: 'Example/Button/C0Button',
+  title: 'Components/Button/C0Button',
   component: C0Button,
   tags: ['autodocs'],
   args: M0Button.default,

@@ -9,7 +9,7 @@ import { DefaultTheme } from '../src/styles/theme/default'
 import { dark_theme } from '../src/styles/theme/dark'
 import { PrismjsTheme } from './prismjs-theme'
 import GlobalStyles from '../src/styles/globals'
-import { myCSS } from './styles.css'
+import { onlyStory } from './styles.css'
 import styled from '@emotion/styled'
 
 export const globalTypes = {
@@ -48,7 +48,7 @@ const withGlobalStyle = (Story) => {
   return (
     <>
       <style>
-        {myCSS(theme).styles.toString()}
+        {onlyStory(theme).styles.toString()}
       </style>
       <GlobalStyles />
       <Story />
